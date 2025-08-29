@@ -104,7 +104,8 @@ int main()
     //Me pergunto se só não era mais fácil usar inteiros mesmo... Se bem que para redijibilidade é interressante o uso de 'true' e 'false'
     //No tutorial mesmo falou que é raro ou nem se usa bool em print e parando para pensar, realmente...
 
-    is_online = false; //Não explicou que é possível alterar valores das variaveis depois... Mas estou fazendo isso para teste
+    is_online = 0; //Não explicou que é possível alterar valores das variaveis depois... Mas estou fazendo isso para teste
+    //Usar 0 pq sim
     if(is_online)
     {
         printf("Godzilla %s está ONLINE!!!", name);
