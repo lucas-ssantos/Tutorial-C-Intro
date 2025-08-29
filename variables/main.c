@@ -21,8 +21,13 @@ int main()
 
     float float_rnd = 2.35;
     printf("Float aleatório: %.2f\n\n", float_rnd); //Não tive a capacidade mental de pensar em um exemplo que use 2 casas decimais...
-
     //WTF erro de 3.30...? Faltou colocar a variável que vai ser usada... Usou a anterior, engraçado.
+
+    float temperatura = -3.5;
+    printf("A temperatura é de %.1f°C\n", temperatura); //Números negativos funcionam direto... PHP funciona com negativos também?
+    int num_neg = -3;
+    printf("Inteiro também funciona...? %d", num_neg); //sim... Será q to ficando maluco achando que as linguagens
+    //não funcionam com negativo...?
 
     return 0;
 }
