@@ -53,12 +53,13 @@ int main()
     //CARACTERES
     char letra = 'L'; //Ia usar meu nome, mas pelo q me lembro char/string... Pera isso é char... Diferente de String... Vamos seguir o tutorial né...
     //Ia dizer que char/string é meio chatinho em C...
+    printf("-- CHAR\n");
     printf("A letra é: %c\n", letra);
 
     char simbolo1 = '*'; //Ta de sacanagem que era a aspas duplas...
     char simbolo2 = '%';
     char simbolo3 = '&'; 
-    printf("C é cha to com chars/strings... Bem chato... %c %c %c", simbolo1, simbolo2, simbolo3); //C'est la vie
+    printf("C é chato com chars/strings... Bem chato... %c %c %c", simbolo1, simbolo2, simbolo3); //C'est la vie
     //kudos para mim que tentei só colocar varias vars em um output só (tutorial ainda nem tocou nisso, se for tocar...)
     
     printf("\n\n");
@@ -69,6 +70,7 @@ int main()
     //Claro... String vai ser um array de caracteres... Tutorial nem ensinou o que é array...
     //Apesar que começar a aprender a programar com C é meio overkill...
     char name[] = "Lucas";
+    printf("-- STRING/CHAR\n");
     printf("Olá eu sou o Godzilla %s\n", name); //Achei mais fácil que char...
 
     //Agora alguns testes de curiosidade...
@@ -157,7 +159,10 @@ int main()
     Acho que C/C++ são linguagens muito diversas... Uma das linguagens das masi complexas e com usos muito altas então saber tudo não vai
     ser em um vídeo de 6hrs... (E olha que são 6 hrs... Devo passar o dia inteiro fazendo ele se ficar com esses comentários...)
 
-    Por que quero aprender C/C++? Sla, acho sofisticado, diferente... Eu vejo um certo charme em C...
+    Já tenho certo domínio em programação, diria que consigo me virar com a maioria das linguagens (principalmente PHP que trabalhei bastante com),
+    porém C é aquela coisa né... Por ser uma linguagem de nível mais baixo e tals...
+    
+    E por que quero aprender C/C++? Sla, acho sofisticado, diferente... Eu vejo um certo charme em C...
     */
 
     return 0;
