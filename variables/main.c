@@ -4,16 +4,18 @@ int main()
 {
     //Aprendendo sobre variáveis
 
-    //Inteiros
+    //INTEIROS
     int inteiro = 2;
     int inteiro2 = 3;
     printf("-- INT\n");
     printf("Valor da variavel inteiro é de: %d\n", inteiro);
-    printf("Valor da variavel inteiro2 é de: %d\n", inteiro2);
+    printf("Valor da variavel inteiro2 é de: %d", inteiro2);
 
-    printf("\n"); //Dando um espacinho para ficar bonito no terminal
+    printf("\n\n"); //Dando um espacinho para ficar bonito no terminal
 
-    //Flutuantes
+
+
+    //FLUTUANTES
     float luz_vel = 3.3; //podia ter escolhido um exemplo melhor... Bom, vamos usar 3.3 nanossegundos que é a aproximação para 1m
     printf("-- FLOAT\n");
     printf("A velocidade da luz em metros é de %f nanossegundos...\nNanossesgundos realmente tm dois ss???\n\n", luz_vel);
@@ -28,6 +30,18 @@ int main()
     int num_neg = -3;
     printf("Inteiro também funciona...? %d", num_neg); //sim... Será q to ficando maluco achando que as linguagens
     //não funcionam com negativo...?
+
+    printf("\n\n"); //Dando um espacinho para ficar bonito no terminal
+
+
+
+    //DOUBLES (não sei como traduzir isso para pt-br)
+    double pi = 3.141592654; //Podem conter 15 a 16 digitos depois do decimal... 
+    //Float seria só 6? (pelo menos é a quantidade que aparece no terminal quando não filtra os números...)
+    printf("-- DOUBLE\n");
+    printf("Valor de pi é %lf", pi); //Outra coisa, qual é dessas nomeclaturas... %d parta int, float faz sentido e lf até q tmb...
+
+    printf("\n\n"); //Dando um espacinho para ficar bonito no terminal
 
     return 0;
 }
