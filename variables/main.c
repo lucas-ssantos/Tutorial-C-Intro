@@ -11,5 +11,13 @@ int main()
     printf("Valor da variavel inteiro é de: %d\n", inteiro);
     printf("Valor da variavel inteiro2 é de: %d\n", inteiro2);
 
+    printf("\n"); //Dando um espacinho para ficar bonito no terminal
+
+    //Flutuantes
+    float luz_vel = 3.3; //podia ter escolhido um exemplo melhor... Bom, vamos usar 3.3 nanossegundos que é a aproximação para 1m
+    printf("-- FLOAT\n");
+    printf("A velocidade da luz em metros é de %f nanossegundos...\nNanossesgundos realmente tm dois ss???\n\n", luz_vel);
+    printf("A velocidade da luz em metros é de %.1f nanossegundos...\nAgora capando os decimais\n\n", luz_vel);
+
     return 0;
 }
