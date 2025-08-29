@@ -52,12 +52,13 @@ int main()
     //CARACTERES
     char letra = 'L'; //Ia usar meu nome, mas pelo q me lembro char/string... Pera isso é char... Diferente de String... Vamos seguir o tutorial né...
     //Ia dizer que char/string é meio chatinho em C...
-    printf("A letra é: %c", letra);
+    printf("A letra é: %c\n", letra);
 
     char simbolo1 = '*'; //Ta de sacanagem que era a aspas duplas...
     char simbolo2 = '%';
     char simbolo3 = '&'; 
     printf("C é cha to com chars/strings... Bem chato... %c %c %c", simbolo1, simbolo2, simbolo3); //C'est la vie
+    //kudos para mim que tentei só colocar varias vars em um output só (tutorial ainda nem tocou nisso, se for tocar...)
 
     return 0;
 }
