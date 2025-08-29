@@ -79,5 +79,9 @@ int main()
     //Interressante, dessa vez não usou nada na 2nd var que foi apontado apenas uma var no print...
     printf("Nome: %s, nome zoado %.3s", name, name); //è sem muita diferença... Imagino se tem alguma função definir o valor do array como char[3]
 
+    char comida = "Pão de Queijo"; //Eu deveria seguir fiel o tutorial, mas sou rebelde e uso valores que podem quebrar o programa e.e
+    printf("%s deveria ser um patrimônio nacional", comida);
+    //Interressante, acusou erro por não ter o []...
+
     return 0;
 }
