@@ -94,6 +94,7 @@ int main()
     //Isso me faz perguntar... O que dá para fazer com C sem as duas bibliotecas... Vou fazer um teste em uma 'folder' separada depois
     bool is_online = true; //Coresponde a 1
     bool is_dead = false; //Coresponde a 0
+    printf("-- BOOL\n");
     printf("Está online: %d\n", is_online); //E claramente mostou 1...
     printf("Está morto: %d\n", is_dead);
     //Não tenho saudades de quando eu tive meu primeiro contato com C e acentos não funcionavam... Viva o Linux...?
@@ -104,16 +105,60 @@ int main()
     //Me pergunto se só não era mais fácil usar inteiros mesmo... Se bem que para redijibilidade é interressante o uso de 'true' e 'false'
     //No tutorial mesmo falou que é raro ou nem se usa bool em print e parando para pensar, realmente...
 
-    is_online = 0; //Não explicou que é possível alterar valores das variaveis depois... Mas estou fazendo isso para teste
+    //Comentando pq quero usar como true mesmo
+    //is_online = 0; //Não explicou que é possível alterar valores das variaveis depois... Mas estou fazendo isso para teste
     //Usar 0 pq sim
     if(is_online)
     {
-        printf("Godzilla %s está ONLINE!!!", name);
+        printf("Godzilla %s está ONLINE!!!\n", name);
     }
     else
     {
-        printf("Godzilla %s FUGIU!!!", name);
+        printf("Godzilla %s FUGIU!!!\n", name);
     }
+
+    is_dead = true;
+    if(is_dead)
+    {
+        printf("Godzila %s foi DERROTADO!!!", name);
+    }
+    else
+    {
+        printf("Godzilla %s DESTRUIU TUDO!!!", name);
+    }
+
+    //RESUMO
+    // INT      = números inteiros
+    // FLOAT    = números flutuantes com casa decimal (4 bytes)
+    // DOUBLE   = quando precisa-se de mais casas decimais (8 bytes)
+    // CHAR     = apenas 1 caracter, utilizar aspas simples... (1byte)
+    // CHAR[]   = strings, array de caracteres/chars (varia de tamanho)
+    // BOOL     = verdadeiro ou falso (1 byte, requer <stdbool.h>)
+
+    //NOTAS FINAIS
+    /*
+    Aulinha simples, lgl, principalmente a questão dos caracteres/strings que são mais chatinhas em C...
+
+    Eu comecei a usar os comentário mais como notas e testando algumas coisas (principalmente em chars e strings...)
+    Mas no final acabou evoluindo para alguns comentários engraçado e virou _arte_ e.e
+
+    Também podia usar esse tipo de comentário em bloco mas usar // é mais bonitinho kk, só não mais elegante que #, só que não tem em C
+    
+    Cada tipo de variavel foi 'mini aulas' nesse tutorial que estou vendo (que na verdade é um compilado de aulas)
+    Mas achei prático deixar tudo em um arquiv só... Ia lotar de pasta rápido e ainda tem muitas aulas a se seguir...
+
+    É interressante essa observação de bytes no final, no vídeo tutorial ele colocou e coloquei aqui também...
+    Dá uma noção de pq usar um tipo ou outro. Já que C é voltado para programas ou scripts de alto desempenho em sua maioria
+    faz sentido usar o bool já que consome apenas 1 byte em vez de só usar o int e dar um valor de 0 e 1 e ainda comendo 4 bytes...
+
+    Vamos ver até onde esses tutoriais vão... Depois quero ir para C++ que é basicamente C com Classes... E lá o bixo deve pegar mais...
+    Mas sinto que esse tutorial que peguei não vai cobrir muito não... Pelo menos deve ter toda uma seção de estruturas e algoritmos (levei muito tempo)
+    (para lembrar e encontrar essa palavra do que me orgulho e.e) que ele talvez não apresente...
+    Acho que C/C++ são linguagens muito diversas... Uma das linguagens das masi complexas e com usos muito altas então saber tudo não vai
+    ser em um vídeo de 6hrs... (E olha que são 6 hrs... Devo passar o dia inteiro fazendo ele se ficar com esses comentários...)
+
+    Por que quero aprender C/C++? Sla, acho sofisticado, diferente... Eu vejo um certo charme em C...
+    */
 
     return 0;
 }
