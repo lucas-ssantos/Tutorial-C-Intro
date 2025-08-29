@@ -19,5 +19,10 @@ int main()
     printf("A velocidade da luz em metros é de %f nanossegundos...\nNanossesgundos realmente tm dois ss???\n\n", luz_vel);
     printf("A velocidade da luz em metros é de %.1f nanossegundos...\nAgora capando os decimais\n\n", luz_vel);
 
+    float float_rnd = 2.35;
+    printf("Float aleatório: %.2f\n\n"); //Não tive a capacidade mental de pensar em um exemplo que use 2 casas decimais...
+
+    //WTF erro de 3.30...?
+
     return 0;
 }
