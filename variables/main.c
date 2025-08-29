@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main()
 {
@@ -82,6 +83,26 @@ int main()
     char comida[] = "Pão de Queijo"; //Eu deveria seguir fiel o tutorial, mas sou rebelde e uso valores que podem quebrar o programa e.e
     printf("%s deveria ser um patrimônio nacional", comida);
     //Interressante, acusou erro por não ter o []...
+
+    printf("\n\n");
+
+
+
+    //BOOLEAN/BOOL (Taquei no Google Tradutor e nem tem tradução... Bool/Boolean significa algo em inglês pelo menos?)
+    //Que sem vergonhice (para não usar palavras de baixo calão...)
+    //Tem que usar <stdbool.h>... E eu pensava q C devia ser um garrancho inicial e teria vários QoL com o tempo...
+    //Isso me faz perguntar... O que dá para fazer com C sem as duas bibliotecas... Vou fazer um teste em uma 'folder' separada depois
+    bool is_online = true; //Coresponde a 1
+    bool is_dead = false; //Coresponde a 0
+    printf("Está online: %d\n", is_online); //E claramente mostou 1...
+    printf("Está morto: %d\n", is_dead);
+    //Não tenho saudades de quando eu tive meu primeiro contato com C e acentos não funcionavam... Viva o Linux...?
+    //Deve ser devido ao compilador mesmo... Nossa fazer isso funcionar naquela época tinha sido uma desgraça...
+    //Lembro que os laboratórios da facul tinha tudo já pronto, mas fazer rodar em casas foi foda... Professor nem ensinou a fazer rodar...
+
+    //Bool em C tem um corportamento bem parecido com o PHP... Mostra como 0 e 1 ao dar print...
+    //Me pergunto se só não era mais fácil usar inteiros mesmo... Se bem que para redijibilidade é interressante o uso de 'true' e 'false'
+    //No tutorial mesmo falou que é raro ou nem se usa bool em print e parando para pensar, realmente...
 
     return 0;
 }
