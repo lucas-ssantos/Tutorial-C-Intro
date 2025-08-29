@@ -47,5 +47,12 @@ int main()
 
     printf("\n\n"); //Dando um espacinho para ficar bonito no terminal
 
+
+
+    //CARACTERES
+    char letra = 'L'; //Ia usar meu nome, mas pelo q me lembro char/string... Pera isso é char... Diferente de String... Vamos seguir o tutorial né...
+    //Ia dizer que char/string é meio chatinho em C...
+    printf("A letra é: %c", letra);
+
     return 0;
 }
