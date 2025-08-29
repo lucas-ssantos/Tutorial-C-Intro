@@ -54,8 +54,10 @@ int main()
     //Ia dizer que char/string é meio chatinho em C...
     printf("A letra é: %c", letra);
 
-    char simbolo = "%";
-    printf("Simbolo é: %c", simbolo); //Criatividade se foi...
+    char simbolo1 = '*'; //Ta de sacanagem que era a aspas duplas...
+    char simbolo2 = '%';
+    char simbolo3 = '&'; 
+    printf("C é cha to com chars/strings... Bem chato... %c %c %c", simbolo1, simbolo2, simbolo3); //C'est la vie
 
     return 0;
 }
