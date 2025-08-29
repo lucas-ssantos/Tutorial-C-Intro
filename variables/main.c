@@ -20,9 +20,9 @@ int main()
     printf("A velocidade da luz em metros é de %.1f nanossegundos...\nAgora capando os decimais\n\n", luz_vel);
 
     float float_rnd = 2.35;
-    printf("Float aleatório: %.2f\n\n"); //Não tive a capacidade mental de pensar em um exemplo que use 2 casas decimais...
+    printf("Float aleatório: %.2f\n\n", float_rnd); //Não tive a capacidade mental de pensar em um exemplo que use 2 casas decimais...
 
-    //WTF erro de 3.30...?
+    //WTF erro de 3.30...? Faltou colocar a variável que vai ser usada... Usou a anterior, engraçado.
 
     return 0;
 }
