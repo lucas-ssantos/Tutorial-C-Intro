@@ -77,9 +77,9 @@ int main()
     printf("Nome quebrado 2: %.3s\n", broken_name); //Interressante, dessa vez respeitou só os 3...
     printf("Nome: %s, nome zoado %.3s\n", name); //Testar com a string 'certinha'
     //Interressante, dessa vez não usou nada na 2nd var que foi apontado apenas uma var no print...
-    printf("Nome: %s, nome zoado %.3s", name, name); //è sem muita diferença... Imagino se tem alguma função definir o valor do array como char[3]
+    printf("Nome: %s, nome zoado %.3s\n", name, name); //è sem muita diferença... Imagino se tem alguma função definir o valor do array como char[3]
 
-    char comida = "Pão de Queijo"; //Eu deveria seguir fiel o tutorial, mas sou rebelde e uso valores que podem quebrar o programa e.e
+    char comida[] = "Pão de Queijo"; //Eu deveria seguir fiel o tutorial, mas sou rebelde e uso valores que podem quebrar o programa e.e
     printf("%s deveria ser um patrimônio nacional", comida);
     //Interressante, acusou erro por não ter o []...
 
