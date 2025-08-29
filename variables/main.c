@@ -57,7 +57,7 @@ int main()
     char simbolo1 = '*'; //Ta de sacanagem que era a aspas duplas...
     char simbolo2 = '%';
     char simbolo3 = '&'; 
-    printf("C é cha to com chars/strings... Bem chato... %c %c %c\n\n", simbolo1, simbolo2, simbolo3); //C'est la vie
+    printf("C é cha to com chars/strings... Bem chato... %c %c %c", simbolo1, simbolo2, simbolo3); //C'est la vie
     //kudos para mim que tentei só colocar varias vars em um output só (tutorial ainda nem tocou nisso, se for tocar...)
     
     printf("\n\n");
@@ -75,6 +75,9 @@ int main()
     printf("Nome quebrado: %s", broken_name); //Quase tive um troço bugando e vendo char em vez de string...
     //Interressante...
     printf("Nome quebrado 2: %.3s\n", broken_name); //Interressante, dessa vez respeitou só os 3...
+    printf("Nome: %s, nome zoado %.3s\n", name); //Testar com a string 'certinha'
+    //Interressante, dessa vez não usou nada na 2nd var que foi apontado apenas uma var no print...
+    printf("Nome: %s, nome zoado %.3s", name, name); //è sem muita diferença... Imagino se tem alguma função definir o valor do array como char[3]
 
     return 0;
 }
