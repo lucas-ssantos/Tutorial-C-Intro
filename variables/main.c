@@ -57,8 +57,18 @@ int main()
     char simbolo1 = '*'; //Ta de sacanagem que era a aspas duplas...
     char simbolo2 = '%';
     char simbolo3 = '&'; 
-    printf("C é cha to com chars/strings... Bem chato... %c %c %c", simbolo1, simbolo2, simbolo3); //C'est la vie
+    printf("C é cha to com chars/strings... Bem chato... %c %c %c\n\n", simbolo1, simbolo2, simbolo3); //C'est la vie
     //kudos para mim que tentei só colocar varias vars em um output só (tutorial ainda nem tocou nisso, se for tocar...)
+    
+    printf("\n\n");
+
+
+
+    //STRINGS (Tambén não sei como traduzir isso direito... "Texto" talvez?)
+    //Claro... String vai ser um array de caracteres... Tutorial nem ensinou o que é array...
+    //Apesar que começar a aprender a programar com C é meio overkill...
+    char name[] = "Lucas";
+    printf("Olá eu sou o Godzilla %s", name); //Achei mais fácil que char...
 
     return 0;
 }
